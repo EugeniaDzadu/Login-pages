@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#bgImg{
+    /* border: 1px solid red; */
+    background-image: url(./decor.jpg);
+    height: 40vh;
+    background-size: cover;
+    background-position-y: -89%;
+}
+
+.inputstyle, #pagetitle{
+    display: block;
+}
+
+body{
+    background-color: rgb(241, 240, 240);
+}
+
+.inputstyle{
+    padding: 14px;
+    width: 80%;
+    background-color: #efefef;
+    border: none;
+    margin: 10px;
+}
+
+#container{
+    /* border: 1px solid orange; */
+    width: 35%;
+    height: 45vh;
+    background-color: #fff;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 20px;
+    
+
+}
+
+#pagetitle{
+    text-align: center;
+}
+
+/* form{
+    margin: 5%;
+} */
+
+#infocontainer{
+    height: 5vh;
+}
+
+
+#lb_chk{
+    display: block;
+    float: left;
+    margin-left: 3%;
+}
+
+#txt_forgot_pass{
+    display: block;
+    float: right;
+    margin-right: 11%;
+}
+
+#btnlogin{
+    display: block;
+    width: 88%;
+    padding: 3%;
+    background-color: #fb771a;
+    border: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    border: 1px solid white;
+    margin: 10%;
+    background:#f0f2f5;
+    
+}
+#left_container{
+    border: 1px solid white;
+    height: 5vh;
+    float: left;
+}
+#right_container{
+    /* border: 1px solid green; */
+    height: 5vh;
+    float: right;
+    
+}
+img{
+    width: 40%;
+    padding: 32px 70px;
+}
+
+
+input,#btnlogin,#btnaccount{
+    display: block;
+    padding: 15px;
+    width: 80%;
+    height: 15px;
+    margin: 5%;
+    border: 1px solid;
+    border-radius: 8px;
+    
+}
+a{
+    text-decoration: none;
+}
+#btnlogin{
+   
+    background-color: orangered;
+    border-color: orangered;
+    text-align: center;
+    
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+
+
+#form_container{
+    box-shadow: 0 4px 4px rgba(0,0,0,0.1),0 8px 16px rgba(0,0,0,0.1);
+    /* justify-content: center; */
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    margin-right: 12rem;
+    height: 375px; ;
+}
+form{
+    text-align:block ;
+}
+
+.changes{
+    text-transform: uppercase;
+    padding: 2px 17px;
+    
+}
+
+#checkbox{
+    margin-right: 16rem;
+    display: flex;
+    color: orangered;
+}
+
+#below{
+    margin-top: 10%;
+    text-align: center;
+}
+#styled{
+    color: orangered;
+}
+#sir{
+    padding: 50px 80px;
+}
+#fl{
+    width: 5%;
+    padding: 0px 200px;
+  
+}
+#tl{
+    width: 5%;
+    padding:1px 250px ;
+    margin-top: 5rex 30px;
+}
+
+

@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#bgImg{
+    /* border: 1px solid red; */
+    background-image: url(./decor.jpg);
+    height: 100vh;
+    width: 30%;
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+
+.inputstyle, #pagetitle{
+    display: block;
+}
+
+body{
+    background-color: rgb(241, 240, 240);
+}
+
+.inputstyle{
+    padding: 14px;
+    width: 80%;
+    /* margin-bottom: -50%; */
+    background-color: #efefef;
+    border: none;
+    margin: 10px;
+
+}
+
+
+
+#container{
+    /* border: 1px solid orange; */
+    width:25%;
+    height: 83vh;
+    background-color: #fff;
+    margin-left: 50%;
+    margin-right: 25%;
+    margin-top: -42%;
+    padding: 20px;
+    
+
+}
+
+#pagetitle{
+    text-align: center;
+    font-size: 120%;
+}
+
+/* form{
+    margin: 5%;
+} */
+
+#infocontainer{
+    height: 5vh;
+}
+
+
+#lb_chk{
+    display: block;
+    float: left;
+    margin-left: 4%;
+    margin-top: 5%;
+}
+
+#txt_forgot_pass{
+    display: block;
+    float: right;
+    margin-right: 5.5%;
+    margin-top: 5%;
+}
+
+#btnlogin, .socials{
+    display: block;
+    width: 88%;
+    margin: 5%;
+    margin-top: 12%;
+    padding: 4%;
+    background-color: #fb771a;
+    border: none;
+    color: #fff;
+}
+
+#or{
+    text-align: center;
+}
+
+.socials{
+    margin-top: 5%;
+    text-align: center;
+    text-decoration: none;
+    width: 81%;
+}
+
+#blue{
+    background-image: url(./facebook.svg);
+    background-repeat: no-repeat;
+    background-color: rgb(23, 23, 175);
+    background-position: center;
+    background-position-x: 19%;
+    background-size: 18px;
+}
+
+#red{
+    background-color: #f61707;
+    background-image: url(./google.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 19%;
+    background-size: 18px;
+
+}
+
+#chk_remember{
+    accent-color: orangered;
+    
+}
+
+.identify{
+    margin-left: 4.5%;
+}
